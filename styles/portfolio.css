@@ -1,0 +1,318 @@
+html{
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Avenir, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 50px 150px;
+  font-size: 20px;
+  color: #333;
+}
+
+h1{
+  font-size: 48px;
+  margin: 5% auto 5% auto;
+}
+
+h2{
+  font-size: 32px;
+  font-family: New York, 'Times New Roman', Times, serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 5%;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 24px;
+  margin: 1% 0px;
+}
+
+h4{
+  color: #333;
+  opacity: 75%;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px 0px;
+}
+
+p{
+  font-size: 18px;
+  margin: 10px 0px;
+  line-height: 1.2em;
+}
+/*
+.secondary{
+  color: #9EA49A;
+} */
+
+.accent{
+  color: #EE7548;
+}
+
+/* links */
+a{
+  text-decoration: none;
+  color: #EE7548;
+}
+
+a.current{
+  color: #EE7548;
+}
+
+a:hover{
+  color: #EE7548;
+  transition: 0.3s;
+}
+
+/* nav bar  */
+
+.my li{
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline;
+}
+
+.my li.accent{
+  color: #EE7548;
+}
+
+a.my:hover{
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: New York, 'Times New Roman', Times, serif;
+}
+
+nav a{
+  color: #333;
+}
+
+nav div{
+  display: inline;
+}
+
+nav ul{
+  padding-left: 0px;
+  margin-left: 3%;
+}
+
+nav li{
+  display: inline;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 16px;
+  font-family: New York, 'Times New Roman', Times, serif;
+}
+
+footer p{
+  font-size: 16px;
+  font-family: New York, 'Times New Roman', Times, serif;
+}
+
+/* index page */
+.body{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 5% auto;
+}
+
+.body h1{
+  display: inline;
+}
+
+#section00 h2{
+  display: inline;
+}
+
+#section01{
+  margin-top: 15%;
+}
+
+#section01 h2{
+  display: inline;
+}
+
+#section02{
+  margin-top: 10%;
+}
+
+#section02 h2{
+  display: inline;
+}
+
+#section03{
+  margin-top: 15%;
+}
+
+#section03 h2{
+  display: inline;
+}
+
+#section04 h2{
+  display: inline;
+}
+
+div.project{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4%;
+  /* width: 95%; */
+}
+
+img.round_cover{
+  width: 100px;
+  margin-right: 50px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.project-hover{
+  text-decoration: none !important;
+  color: #333;
+  transition: 0.3s;
+}
+
+.project-hover:hover p{
+  color: #333;
+  transition: 0.3s;
+}
+
+.project-hover img{
+  opacity: 80%;
+}
+
+.project-hover:hover img{
+  opacity: 100%;
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px 0px rgba(238, 117, 72, 0.5);
+}
+
+.pics{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 5% auto 0% auto;
+}
+
+.caption{
+  text-align: center;
+  font-size: 12px;
+}
+
+.guacpics{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 5% auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+/* portfolio pages */
+.pages{
+  width: 70%;
+  margin: auto auto;
+}
+
+div.project-overview{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 10% auto 15% auto;
+  align-items: flex-end;
+}
+
+.project-overview-pics{
+  width: 70%;
+}
+
+table{
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+th{
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal;
+  padding: 1.5%;
+  font-size: 18px;
+}
+
+th.overview-title{
+  font-weight: bold;
+  width: 20%;
+}
+
+.project-overview h1{
+  display: inline;
+}
+
+.pages h2{
+  display: inline;
+}
+
+.pages p{
+  margin: 4% 0%;
+  line-height: 1.5em;
+}
+
+div.more-projects{
+  text-align: center;
+}
+
+.prototype-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.prototype-video{
+  width: 100%;
+}
+
+.prototype-description{
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+/* accent colors */
+.accent-pear{
+  color: #ABDD5B;
+}
+
+/* bio page */
+#bio{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 5% auto;
+}
+
+#bio img{
+  width: 80%;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+#bio p{
+  margin: 5% 0%;
+  line-height: 1.2em;
+}

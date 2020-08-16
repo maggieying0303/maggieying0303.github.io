@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel = "stylesheet" type = "text/css" href = "styles/portfolio.css"/>
+  <link rel = "icon" type = "image/png" href="documents/favicon.png"/>
+  <link rel="stylesheet" href="plugin/aos/aos.css">
+
+  <title>Maggie Ying Portfolio</title>
+</head>
+
+<body>
+
+  <script src="plugin/aos/aos.js"></script>
+  <script rype="text/javascript">
+    AOS.init({
+      once: true,
+      duration: 800,
+    });
+  </script>
+
+  <header>
+
+    <!-- m.y. -->
+
+    <!-- nav bar -->
+    <nav>
+
+      <a href="index.html" class="my">
+      <ul>
+      <li>m</li><li class="accent">.</li><li>y</li><li class="accent">.</li>
+      </ul>
+      </a>
+
+      <ul>
+        <li><a href = "index.html" class = "current">work</a></li>
+        <li>  //  </li>
+        <li><a href = "photos.html">photos</a></li>
+        <li>  //  </li>
+        <li><a href = "bio.html">bio</a></li>
+        <li>  //  </li>
+        <li><a href = "documents/resume.pdf" target="_blank">resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="project-overview" data-aos="fade-up">
+
+<div>
+  <img class="project-overview-pics" src="documents/pear/pear1.png" alt="pear app overview"/>
+</div>
+
+<div>
+  <h1 class="accent-pear">Pear </h1><h1>mvp</h1>
+
+  <table>
+    <tr>
+      <th class="overview-title">overview</th>
+      <th> mvp for a mobile app that aims to encourage meaningful relationships between cornell undergrads </th>
+    </tr>
+
+    <tr>
+      <th class="overview-title">my role</th>
+      <th>co-led the product direction, interaction design, and brand identity development </th>
+    </tr>
+
+    <tr>
+      <th class="overview-title">timeline</th>
+      <th>jan - april 2020, pre-covid days </th>
+    </tr>
+
+    <tr>
+      <th class="overview-title">team</th>
+      <th><a href="www.cornellappdev.com" class="accent-pear">Cornell Appdev</a> (1 PM, 2 designers, 7 developers)</th>
+    </tr>
+
+    <tr>
+      <th class="overview-title">toolkit</th>
+      <th>figma, origami studio, zeplin </th>
+    </tr>
+
+  </table>
+</div>
+</div>
+
+<main class="pages">
+
+<!-- project overview -->
+
+  <h2 class = "accent-pear"> 01 </h2><h2> why did we build Pear? </h2>
+  <p>
+
+  <img class="pics" src="documents/pear/what-is-pear.png" alt="what is pear"/>
+
+  <br/>
+
+  Through an initiative within <a class = "accent-pear" href="https://www.cornellappdev.com/" target="_blank">Cornell AppDev</a> to pair up members for coffee chats, many new faces can have 30 minute chats grow into two hour lunches and lifelong friendships. But much more often, we pass by other students, hesitating to say hi in between eye contacts.</p>
+
+  <p>When the idea of <i>“coffee chats but for all of Cornell”</i> was brought up, we saw an opportunity to break awkward barriers and improve campus culture by encouraging friendly, in-person meetups.</p>
+  <p>(disclaimer: the ideation of Pear happened prior to COVID-19)</p>
+
+  <p><strong>user research insights</strong></p>
+  <p>Our user research further vaildated the opportunity space that we hypothesized and shed light on the problem as well as how we might approach it. In total, we collected 70 survey responses and conducted 6 interviews. Here is what we learned:</p>
+  <ul>
+    <li><p>Many people have a good number of close friends but also many other acquaintances that they wish they knew better.</p></li>
+    <li><p>Everyone is open to chatting, but don’t want to reach out due to laziness or fear of inconveniencing others.</p></li>
+    <li><p>Students are very excited to meet more new people with similar interests, but they lack the channel for it.</p></li>
+  </ul>
+
+  <p><strong>the problem</strong></p>
+  <p>Cornell students want to form meaningful connections with other students. But this is difficult because:</p>
+  <ul>
+    <li><p>they do not know how to initiate the interaction</p></li>
+    <li><p>they are not used to branching out beyond their current circle</p></li>
+  </ul>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-pear"> 02 </h2><h2> what does Pear do? </h2>
+
+  <img class="pics" src="documents/pear/user-flow.png" alt="what is pear"/>
+  <p class="caption">user flow diagram</p>
+
+  <p><strong>solving the problem</strong></p>
+  <p><i>1. Connect people with common interests and groups.</i></p>
+  <p>Pear offers a platform to students who don’t know where to meet people with common interests. It also helps campus groups grow closer as a community.</p>
+  <p><i>2. Minimize the friction when reaching out and scheduling chats.</i></p>
+  <p>Reaching out to people is hard. The key features of Pear help students overcome the awkwardness when messaging people they don’t know well, waiting for a response, and finding a time in students’ busy schedule.</p>
+
+  <div class="prototype-container">
+  <div>
+  <video autoplay loop muted playsinline alt="pear scheduling flow" src="documents/pear/pop-up.mp4" class="prototype-video"></video>
+  </div>
+  <div class="prototype-description">
+  <p>​​​​​​​<strong>automatic pairings, one at a time</strong></p>
+  <p>Pear makes a personalized, one-on-one introduction every week and invites people to get to know one other.</p>
+  <p>Every Sunday, the user will be paired with another Cornell undergrad on the app based on commonalities between their profiles.</p>
+  </div>
+  </div>
+
+  <div class="prototype-container">
+  <div class="prototype-description">
+  <p>​​​​​​​<strong>personalized matching based on interests and groups</strong></p>
+  <p>With common ground, people are more likely to follow through with pairings and have a positive experience during the meet-up.</p>
+  <p>At Cornell, people often associate coffee chats with professional networking and peer pressure. Pear hopes to challenge this by creating a comfortable space focused on making new friends.</p>
+  </div>
+  <div>
+  <video autoplay loop muted playsinline alt="pear scheduling flow" src="documents/pear/interest.mp4" class="prototype-video"></video>
+  </div>
+  </div>
+
+  <div class="prototype-container">
+  <div>
+  <video autoplay loop muted playsinline alt="pear scheduling flow" src="documents/pear/scheduling.mp4" class="prototype-video"></video>
+  </div>
+  <div class="prototype-description">
+  <p>​​​​​​​<strong>easy scheduling for in-person meet-up</strong></p>
+  <p>No more awkward messaging to confirm the meet-up. Pear’s simple scheduling flow lets people focus on relationship building.</p>
+  <p>Users will input their weekly availabilities once before they receive their first Pear, saving redundant actions in the long run. </p>
+  <p>When they schedule weekly meet-ups, they can confirm or revise the pre-filled availabilities.</p>
+  </div>
+  </div>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-pear"> 03 </h2><h2> who is Pear? </h2>
+  <p>​​​​​​​<strong>working around engineering constraint: no in-app DMs</strong></p>
+  <p>With the initial goal of shipping Pear within one semester, it appeared unfeasible to build in instant messaging in Pear and therefore generated a major engineering constraint that we have to work with. We still need another way to give each user updates and reminders about the pairings.</p>
+
+  <p>The engineering constraint inspired the birth of our most precious brainchild, Pear — a bot with first-person perspective and interface that mimic chatting could also make the pairings feel more personal.​​​​​​​</p>
+
+  <p>Pear is a play on the word “pair”, alluding to how the app matches people in pairs based on commonalities. The name also opens up an exciting opportunity space for creative character design and brand identity centered around the fruit.</p>
+
+  <p>​​​​​​​<strong>the Pear persona: your friendly bot for updates and notifications</strong></p>
+  <img class="pics" src="documents/pear/pearpersona.png" alt="pear brand"/>
+  <p class="caption">examples of where Pear comes into play</p>
+
+  <p>At the core of Pear’s personality is friendliness. With a warm, inviting and human image, Pear assures users that they are connected to real people who also hope to meet, despite being unable to have conversations within the app. This is something that we always kept in mind when characterizing the visual, emotions, and tone of the Pear bot.
+
+  <p>Additionally, there is already an association of coffee chats with a "snakey” and professional-focused culture at Cornell. Through the voice of Pear, We want to create a comfortable space where people genuinely want to know each other beyond career goals, clubs, and achievements.</p>
+
+
+
+  <p>​​​​​​​<strong>instilling "friendliness" into our brand</strong></p>
+  <img class="pics" src="documents/pear/pearbrand.png" alt="pear brand"/>
+  <p>Through the Circular Standard font, organic-looking icons, and soft colors, we also carefully crafted our visual design to convey friendliness to our users.</p>
+
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-pear"> 04 </h2><h2> where is Pear going next? </h2>
+  <p>Unfortunately, COVID-19 is changing people’s attitudes towards in-person meetings with strangers 😢. As the pandemic unfolds, the team will keep this in mind in shaping our product. However, we are optimistic that there will always be a need to feel connected with the community, whether that will be over video calls, or some other solution. ​​​​​​​</p>
+
+  <p>Here are some goals for the future:</p>
+
+  <ul>
+    <li><p><strong>System notifications:</strong> This will be an important part of notifying students of the pairing cycle and scheduled meetings.</p></li>
+    <li><p><strong>Instant messaging:</strong> Though this is a backend challenge that we held off on for the MVP, it’s an important step in building a trustworthy social platform.</p></li>
+    <li><p><strong>Community feed:</strong> It can feel intimidating not knowing if other people are also joining in on this completely new platform. We are planning to create a feed that shows who has met up with each other to remind Cornell that meeting new people is fun, and you should too!</p></li>
+  </ul>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-pear"> 05 </h2><h2> what did i learn from Pear? </h2>
+  <ul>
+    <li><p><strong>Communicate, communicate, communicate.</strong> When working on a tight timeline, things can change very fast on the design side. Taking some additional time for syncing in with the team early on can save much time solving misunderstanding afterwards.</p></li>
+
+    <li><p><strong>Constraints can grow into opportunities. </strong> To my surprise, the engineering constraint in fact helped us squeeze the most out of our creative juice. The Pear bot not only takes an effective stab at the problem, but it also became our unique brand identity, adding some personal colors to our product.</p></li>
+
+    <li><p><strong>Don't be afraid to show rough work.</strong> As designers, we all take pride in our work and hope to always present the most polished artifacts. However, the early stage of product development requires rapid iterations, and sometimes we are showing "rough" or "bad" work at critique due to the tight time constraint. Despite the imperfect visuals, the "rough" work can still bring us many valuable feedbacks about interaction design, user flow, etc. I have grown much more comfortable showing my work to designers and developers. </p></li>
+  </ul>
+
+  <p>*This case study is written in collaboration with my co-designer and friend <a href="https://cindyhuang.me/" class="accent-pear" target="_blank">Cindy Huang</a>. Currently, we are working on a process handbook that documents the detailed journey of how Pear came to be. More to come very soon!</p>
+
+</main>
+
+<br/>
+<br/>
+
+<div class="more-projects"><a href="index.html#section01"><strong>//view more projects//</strong></a></div>
+
+<footer>
+
+  <div>
+  <a class="dotted" href = "mailto:ry78@cornell.edu">ry78@cornell.edu</a> // <a class="dotted" href = "https://www.linkedin.com/in/maggie-ying-768607141/" target="_blank">linkedin</a> // <a class="dotted" href = "https://twitter.com/maggieying_" target="_blank">twitter</a> // <a class="dotted" href = "https://www.instagram.com/magsyingphotos/" target="_blank">instagram</a>
+  </div>
+
+  <br/>
+  <br/>
+
+  <p class="secondary">designed & coded by maggie, powered by soy latte</p>
+</footer>
+
+</body>
+
+
+
+</html>
