@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel = "stylesheet" type = "text/css" href = "styles/portfolio.css"/>
+  <link rel = "icon" type = "image/png" href="documents/favicon.png"/>
+  <link rel="stylesheet" href="plugin/aos/aos.css"/>
+
+  <title>Maggie Ying Portfolio</title>
+</head>
+
+<body>
+
+  <script src="plugin/aos/aos.js"></script>
+  <script rype="text/javascript">
+    AOS.init({
+      once: true,
+      duration: 800,
+    });
+  </script>
+
+  <header>
+
+    <!-- m.y. -->
+
+    <!-- nav bar -->
+    <nav>
+
+      <a href="index.html" class="my">
+      <ul>
+        <li>maggie</li><li class="accent">.</li><li>ying</li>
+      </ul>
+      </a>
+
+      <ul>
+        <li><a href = "index.html" class = "current">work</a></li>
+        <li>  //  </li>
+        <li><a href = "photos.html">photos</a></li>
+        <li>  //  </li>
+        <li><a href = "bio.html">bio</a></li>
+        <li>  //  </li>
+        <li><a href = "documents/resume.pdf" target="_blank">resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- project overview -->
+
+  <div class="project-overview" data-aos="fade-up">
+
+  <div>
+    <img class="project-overview-pics" src="documents/ithacatransit/transit1.png" alt="ithaca transit app overview"/>
+  </div>
+
+  <div>
+    <h1 class="accent-transit">Ithaca Transit </h1><h1>notifications</h1>
+
+    <table>
+      <tr>
+        <th class="overview-title">overview</th>
+        <th> a notification feature that helps passengers stay updated of TCAT bus arrival times and bus delays </th>
+      </tr>
+
+      <tr>
+        <th class="overview-title">my role</th>
+        <th>conducted user research, designed and prototyped the notification flow</th>
+      </tr>
+
+      <tr>
+        <th class="overview-title">timeline</th>
+        <th>fall 2019</th>
+      </tr>
+
+      <tr>
+        <th class="overview-title">team</th>
+        <th><a href="www.cornellappdev.com" class="accent-transit">Cornell Appdev</a></th>
+      </tr>
+
+      <tr>
+        <th class="overview-title">toolkit</th>
+        <th>figma, origami studio, zeplin </th>
+      </tr>
+
+    </table>
+  </div>
+  </div>
+
+  <main class="pages">
+
+  <h2 class = "accent-transit"> 01 </h2><h2> what is Ithaca Transit? </h2>
+
+  <img class="pics" src="documents/ithacatransit/transit2.png" alt="ithaca transit app store screenshots"/>
+  <p class="caption">Ithaca Transit key features</p>
+
+  <p>Ithaca Transit is an iOS mobile application that provides end-to-end navigation services for the local TCAT bus system. With features like live tracking, dynamic updates, powerful search and more, Ithaca Transit helps people find the best route to their destination.​​​​​​​</p>
+
+  <p>The app currently has 3,000 DAU and 8,000 MAU. Check out Ithaca Transit on the <a class="accent-transit" href="https://apps.apple.com/us/app/ithaca-transit-live-tracking/id1290883721" target="blank">App Store</a> to learn more.</p>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-transit"> 02 </h2><h2> how can notifications help? </h2>
+  <p>The TCAT bus system is quite notorious for its unpredictablity. As Cornell undergrads, we have all experienced that 15 min wait at the bus stop during freezing cold weather, or having to walk to our 8:40AM class because we missed the bus by 30 seconds.</p>
+
+  <p><strong>the problem</p></strong>
+  <p>College students want to keep up with the TCAT bus schedules, but they cannot do that well because:</p>
+  <ul>
+  <li><p>buses frequently experience unexpected delays, especially during tough Ithaca weather</p></li>
+  <li><p>they're tired of constantly needing to reconfirm bus arrival times</p></li>
+  </ul>
+
+  <p>To help college students stay on top of their schedule (even during the heavy Ithaca snow), we designed the notification feature to provide clear, timely information about the bus routes.</p>
+
+  <p>Check out the prototype below, and read more to see how we arrived at this solution!</p>
+
+  <div class="prototype-container">
+  <div>
+  <video autoplay loop muted playsinline alt="ithaca transit prototype" src="documents/ithacatransit/prototype1.mp4" class="prototype-video-transit"></video>
+  </div>
+  <div class="prototype-description">
+  <p>​​​​​​​<strong>delay notifications</strong></p>
+  <p>When looking up bus route information, users may opt in for one-time delay notifications by turning on the toggle on the bottom sheet.</p>
+  <p>A blue banner on top will confirm their subscription for delay notifications, and a magenta banner will signify in-app notification for bus delays.</p>
+  </div>
+  </div>
+
+  <div class="prototype-container">
+    <div class="prototype-description">
+    <p>​​​​​​​<strong>boarding notifications</strong></p>
+    <p>Users may also opt in for boarding notifications. As it typically takes some time to get prepared and walk to the bus stop, the boarding notifications will alert users 10 minutes before the bus arrival time.</p>
+    </div>
+  <div>
+  <video autoplay loop muted playsinline alt="ithaca transit prototype" src="documents/ithacatransit/prototype2.mp4" class="prototype-video-transit"></video>
+  </div>
+  </div>
+
+  <div class="prototype-container">
+  <div>
+  <video autoplay loop muted playsinline alt="ithaca transit prototype" src="documents/ithacatransit/prototype3.mp4" class="prototype-video-transit"></video>
+  </div>
+  <div class="prototype-description">
+  <p>​​​​​​​<strong>see notifications on the lockscreen</strong></p>
+  <p>Users may also see system push notifications about bus arrivals and delays when their phones are locked.</p>
+  </div>
+  </div>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-transit"> 03 </h2><h2> what kind of notifications do users need? </h2>
+
+  <img class="pics" src="documents/ithacatransit/transit3.png" alt="ithaca transit app store screenshots"/>
+  <p class="caption">synthesizing user research insights with my teammate Femi</p>
+
+  <p>During our Fall 2019 user research study, we spoke with 12 students in total (1 newbie, 3 casual users, 8 power users; 5 first-year students, 7 upperclassmen).</p>
+  <p>These in-person interviews shed light on potential feature requirements and how we can best tailor the notification to the user needs: </p>
+
+  <ul>
+    <li><p><strong>Provide 2 types of notifications: boarding alerts and delay alerts.</strong> Delay notifications is a unanimous requests from almost all users. In comparison, boarding time notification requests mainly come from underclassmen, as upperclassmen demonstrate the confidence to plan in advance and catch their bus on time. Despite the conflicting needs, it is still valuable to provide boarding notifications since underclassmen students make up our main user group. </p></li>
+
+    <li><p><strong>Keep the number of notifications minimal. </strong> Unnecessary notifications will cause users to turn off all notifications from Ithaca Transit, thereby defeating the purpose of this feature. In general, users think that the ideal number of notifications is 3 or fewer. </p></li>
+
+    <li><p><strong>The most reasonable timing for boarding notifications is 10 min before bus arrival. </strong> Users generally take around 10 minutes to get ready and walk to the bus stops. </p></li>
+  </ul>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-transit"> 03 </h2><h2> design explorations </h2>
+
+  <br/>
+
+  <p>​​​​​​​<strong>do we need an in-app notification center?</strong></p>
+  <p>Initially, we conceptualized having a notification center to display all of the notifications that the users have subscribed for. With the notification center calendar view, users may plan out their itinerary for the next week.</p>
+  <p>According to our user research, however, very rarely do users plan for their bus trips ahead of time. Users generally check the bus schedule 10~30 minutes prior to their intended departure time. Therefore, Notification Center would not provide much value to most users, and we discarded it in our final design.</p>
+  <img class="pics" src="documents/ithacatransit/notificationcenter.png" alt="transit explorations"/>
+
+  <br/>
+
+  <p>​​​​​​​<strong>how can users turn on notifications?</strong></p>
+  <p><strong>Option B —— </strong> Although it takes more clicks to reach in comparison with Option A, it has 2 clear advantages:</p>
+  <p>1) there is sufficient space to design separate controls for bus delays and bus boarding times, providing users with the freedom to only subscribe for the notifications that they need;</p>
+  <p>2) it is very clear about exactly which route and what kind of notification you have turned on.</p>
+  <img class="pics" src="documents/ithacatransit/entrypoint.png" alt="transit explorations"/>
+
+  <br/>
+
+  <p><strong>Option D ——</strong> As it does not have section titles, Option Dsimply provides separate controls for boarding notifications and delay notification. Additionally, Option D appears most consistent with the overall visual design and the mental model for turning on notifications.</p>
+  <img class="pics" src="documents/ithacatransit/notificationexploration.png" alt="transit explorations"/>
+
+  <br/>
+
+  <p>​​​​​​​<strong>do users need to customize boarding time notifications?</strong></p>
+  <p><strong>Option A —— </strong>An important question for boarding time notifications is when to send them. We initially explored Option B & C, which provides a time analog wheel that allow users to manually customize the alert time. However, this slows down the interaction, and users find it inconvenient to customize the timing every time they turn on the notification.</p>
+  <p>Therefore, we decided to set a default notification sending time for users, and 10 minutes prior appears to be the most reasonable timing according to our user research findings.</p>
+  <img class="pics" src="documents/ithacatransit/boardingtimes.png" alt="transit explorations"/>
+
+  <br/>
+
+  <p>​​​​​​​<strong>visual design exploration</strong></p>
+  <p>As explained above, Notification Center does not tailor to the common use case and fails to bring value to most users. Therefore, we will provide one-time notifications that users may dismiss after viewing within the app. We will also briefly display a feedback messages when users turn on the notification. </p>
+  <p><strong>Option B —— </strong>In comparison to the flat visual design of Option A, Option B stands out as more visually unique and fits better with the floating style of the route detail card at the bottom. </p>
+  <img class="pics" src="documents/ithacatransit/visualdesign.png" alt="transit explorations"/>
+
+  <br/>
+
+  <p>​​​​​​​<strong>edge case</strong></p>
+  <p>Users might attempt to turn on boarding notifications without realizing that the bus is in fact arriving in less than 10 minutes. In this case, we will not allow users to successfully turn on the boarding notifications and instead send a feedback message to users, saying that the bus is arriving within 10 minutes.</p>
+  <img class="pics" src="documents/ithacatransit/edgecase.png" alt="transit explorations"/>
+
+  <br/>
+  <br/>
+
+  <h2 class = "accent-transit"> 04 </h2><h2> my learnings from Ithaca Transit </h2>
+
+
+  </main>
+
+  <div class="more-projects">//<a href="index.html#section01"><strong>view more projects</strong></a>//</div>
+
+  <br/>
+  <br/>
+
+  <footer>
+
+    <div>
+    <a class="dotted" href = "mailto:ry78@cornell.edu">ry78@cornell.edu</a> // <a class="dotted" href = "https://www.linkedin.com/in/maggie-ying-768607141/" target="_blank">linkedin</a> // <a class="dotted" href = "https://twitter.com/maggieying_" target="_blank">twitter</a> // <a class="dotted" href = "https://www.instagram.com/magsyingphotos/" target="_blank">instagram</a>
+    </div>
+
+    <br/>
+    <br/>
+
+    <p class="secondary">designed & coded by maggie, powered by soy latte</p>
+  </footer>
+
+  </body>
+
+
+
+  </html>
