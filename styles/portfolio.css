@@ -6,7 +6,7 @@ html{
 body{
   font-family: Avenir, Helvetica, sans-serif;
   font-weight: 400;
-  margin: 50px 150px;
+  margin: 5% 10%;
   font-size: 20px;
   color: #333;
 }
@@ -174,8 +174,8 @@ div.project{
 }
 
 img.round_cover{
-  width: 100px;
-  margin-right: 50px;
+  width: 12.5%;
+  margin-right: 5%;
   border-radius: 100px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
