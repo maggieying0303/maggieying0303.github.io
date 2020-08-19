@@ -365,10 +365,10 @@ h2.photos-title{
 
 
 /* responsive */
-/* @media screen and (max-width: 600px) */
+@media screen and (max-width: 600px){
 
 
-  /* body{
+body{
     font-family: Avenir, Helvetica, sans-serif;
     font-weight: 400;
     margin: 10% 5%;
@@ -407,7 +407,6 @@ h2.photos-title{
     line-height: 1.2em;
   }
 
-  /* nav bar  */
 
   .my li{
     color: #333;
@@ -547,4 +546,5 @@ h2.photos-title{
     margin-right: 2%;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
     overflow: hidden;
-  } */
+  }
+}
