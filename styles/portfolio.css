@@ -591,4 +591,18 @@ body{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
     overflow: hidden;
   }
+
+  #myBtn {
+    /* color: white; */
+    display: none;
+    font-size: 0px;
+    /* opacity: 0; */
+    /* color: none; */
+  }
+
+  #myBtn:hover{
+    display: none;
+    font-size: 0px;
+  }
+
 }
