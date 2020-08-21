@@ -243,17 +243,17 @@ img.round_cover{
 div.project-overview{
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   margin: 5% auto 15% auto;
   align-items: flex-end;
 }
 
 .project-overview-pics{
-  width: 80%;
+  width: 70%;
 }
 
 table{
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   width: 100%;
 }
 
