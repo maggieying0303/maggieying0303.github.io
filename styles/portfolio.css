@@ -392,8 +392,7 @@ h2.photos-title{
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 0px 0px; /* Some padding */
   border-radius: 500px; /* Rounded corners */
-  font-size: 24px; /* Increase font size */
-  font-weight: bold;
+  font-size: 48px; /* Increase font size */
   transition: 0.3s;
 }
 
