@@ -263,6 +263,23 @@ div.project-overview{
   width: 70%;
 }
 
+div.project-overview-ipad{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 5% auto 15% auto;
+  align-items: flex-end;
+}
+
+.project-overview-pics-ipad{
+  width: 70%;
+  margin-bottom: 10%;
+}
+
+div.ipad{
+  width: 200%;
+}
+
 table{
   margin-bottom: 10%;
   width: 100%;
@@ -336,6 +353,10 @@ a.accent-pear{
 
 .accent-transit{
   color: #7BB3D3;
+}
+
+.accent-bofa{
+  color: #1A4BC5;
 }
 
 /* bio page */
@@ -540,6 +561,21 @@ body{
 
   .project-overview-pics{
     width: 50%;
+  }
+
+  div.project-overview-ipad{
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+    align-items: flex-start;
+  }
+
+  .project-overview-pics-ipad{
+    width: 70%;
+  }
+
+  div.ipad{
+    width: 100%;
   }
 
   th{
