@@ -130,6 +130,10 @@ footer p{
   font-weight: bold;
 }
 
+p.problem{
+  font-weight: bold;
+}
+
 /* index page */
 .body{
   display: flex;
